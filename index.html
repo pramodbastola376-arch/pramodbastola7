@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pramod Bastola - Personal Portfolio Website. Student, Web Developer, Programmer, and Digital Worker from Birtamode, Jhapa, Nepal.">
+  <meta name="keywords" content="Pramod Bastola, Web Developer, Portfolio, Student, Nepal, Birtamode, HTML, CSS, JavaScript">
+  <meta name="author" content="Pramod Bastola">
+  
+  <title>Pramod Bastola | Portfolio</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans for clean modern tech typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. FIXED NAVIGATION BAR
+       ========================================================================= -->
+  <header class="header">
+    <div class="container navbar">
+      <!-- Brand Logo / Name -->
+      <a href="#home" class="brand-logo" aria-label="Pramod Bastola Home">
+        <span class="logo-icon">PB</span>
+        <span>Pramod<span class="cyan-dot">.</span></span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Action Buttons & Mobile Hamburger -->
+      <div class="header-actions">
+        <!-- Quick CTA Button -->
+        <a href="#contact" class="btn btn-primary btn-sm desktop-cta">Let's Talk</a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================================
+         2. HERO SECTION
+         ========================================================================= -->
+    <section id="home" class="hero-section">
+      <div class="container hero-grid">
+        <!-- Hero Text Content -->
+        <div class="hero-content">
+          <!-- Availability / Welcome Badge -->
+          <div class="hero-badge">
+            <span class="status-ping"></span>
+            <span>Available for projects &amp; digital work</span>
+          </div>
+
+          <!-- Hero Heading -->
+          <h1 class="hero-title">
+            Hi, I’m <span class="gradient-text">Pramod Bastola</span>
+          </h1>
+
+          <!-- Typewriter Dynamic Subtitle -->
+          <div class="hero-subtitle-wrapper">
+            <span>Specialized as a&nbsp;</span>
+            <span id="typewriterText" class="gradient-text">Student</span>
+            <span class="typewriter-cursor"></span>
+          </div>
+
+          <!-- Short Bio Text -->
+          <p class="hero-description">
+            I am a passionate student from Birtamode, Nepal. I enjoy creating websites, learning programming, working with computers, and exploring digital technologies.
+          </p>
+
+          <!-- Hero Action Buttons -->
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Work</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+            
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+              </svg>
+            </a>
+
+            <!-- CUSTOMIZE: Visit GitHub button link -->
+            <a href="https://github.com/pramodbastola376-arch" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              <span>Visit GitHub</span>
+            </a>
+          </div>
+
+          <!-- Hero Social Quick Icons -->
+          <div class="hero-socials">
+            <span class="social-label">Follow:</span>
+            
+            <!-- WhatsApp -->
+            <a href="https://wa.me/9779804963080" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+              </svg>
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/pramod.bastola.7" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="Instagram">
+              <svg viewBox="0 0 24 24">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+            </a>
+
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/pramod.bastola.7" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="Facebook">
+              <svg viewBox="0 0 24 24">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/pramodbastola376-arch" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="GitHub">
+              <svg viewBox="0 0 24 24">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+            </a>
+
+            <!-- Direct Email -->
+            <a href="mailto:pramodbastola376@gmail.com" class="social-icon-link" aria-label="Email Pramod">
+              <svg viewBox="0 0 24 24">
+                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Visual: Circular Profile Photo with Subtle Blue Glow -->
+        <div class="hero-visual">
+          <div class="profile-container">
+            <!-- Animated Ambient Glow Ring -->
+            <div class="profile-glow-ring"></div>
+
+            <!-- Profile Photo Rounded Container -->
+            <div class="profile-image-box">
+              <!-- ATTACHED IMAGE: FB_IMG_1786193019807.jpg -->
+              <img 
+                src="assets/images/FB_IMG_1786193019807.jpg" 
+                alt="Portrait of Pramod Bastola." 
+                class="profile-photo"
+                width="400"
+                height="400"
+                loading="eager"
+              >
+            </div>
+
+            <!-- Floating Pill 1 (Top Left) -->
+            <div class="floating-badge floating-badge-top">
+              <span class="badge-icon">💻</span>
+              <span>Web Developer</span>
+            </div>
+
+            <!-- Floating Pill 2 (Bottom Right) -->
+            <div class="floating-badge floating-badge-bottom">
+              <span class="badge-icon">📍</span>
+              <span>Birtamode, Nepal</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         3. ABOUT SECTION
+         ========================================================================= -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-tag">
+            <span class="dot"></span>
+            <span>Get To Know Me</span>
+          </div>
+          <h2 class="section-title">About Pramod Bastola</h2>
+          <p class="section-subtitle">
+            A student and aspiring technologist passionate about web craftsmanship and digital tools.
+          </p>
+        </div>
+
+        <!-- About Two-Column Layout -->
+        <div class="about-grid">
+          <!-- Left Column: Profile Card with Rounded Photo -->
+          <div class="about-photo-wrapper">
+            <div class="about-card-visual">
+              <div class="about-avatar-box">
+                <!-- ATTACHED IMAGE: FB_IMG_1786193019807.jpg -->
+                <img 
+                  src="assets/images/FB_IMG_1786193019807.jpg" 
+                  alt="Portrait of Pramod Bastola." 
+                  width="220"
+                  height="220"
+                  loading="lazy"
+                >
+              </div>
+              <h3 class="about-card-name">Pramod Bastola</h3>
+              <p class="about-card-role">Student &amp; Web Developer</p>
+
+              <!-- Quick Meta Details -->
+              <div class="about-meta-list">
+                <div class="about-meta-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                    <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                  </svg>
+                  <span>Bir Amarsingh Secondary School</span>
+                </div>
+                <div class="about-meta-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                    <circle cx="12" cy="10" r="3"/>
+                  </svg>
+                  <span>Birtamode, Jhapa, Nepal</span>
+                </div>
+                <div class="about-meta-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M20 6L9 17l-5-5"/>
+                  </svg>
+                  <span>Available for Digital Tasks</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Professional Introduction & Highlights -->
+          <div class="about-content">
+            <p class="about-intro-text">
+              Pramod Bastola is a student at Bir Amarsingh Secondary School in Birtamode, Jhapa, Nepal. He is interested in web development, programming, computer operations, and digital work. He enjoys learning new technology, solving problems, and building useful digital projects.
+            </p>
+
+            <!-- 4 Highlight Cards -->
+            <div class="about-highlights-grid">
+              <!-- Education Box -->
+              <div class="highlight-box">
+                <div class="box-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                  </svg>
+                </div>
+                <h4>Education</h4>
+                <p>Bir Amarsingh Secondary School</p>
+              </div>
+
+              <!-- Location Box -->
+              <div class="highlight-box">
+                <div class="box-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+                    <path d="M2 12h20"/>
+                  </svg>
+                </div>
+                <h4>Location</h4>
+                <p>Birtamode, Jhapa, Nepal</p>
+              </div>
+
+              <!-- Interests Box -->
+              <div class="highlight-box">
+                <div class="box-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="16 18 22 12 16 6"/>
+                    <polyline points="8 6 2 12 8 18"/>
+                  </svg>
+                </div>
+                <h4>Interests</h4>
+                <p>Web Development &amp; Programming</p>
+              </div>
+
+              <!-- Purpose Box -->
+              <div class="highlight-box">
+                <div class="box-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                  </svg>
+                </div>
+                <h4>Digital Work</h4>
+                <p>Computer Operations &amp; Troubleshooting</p>
+              </div>
+            </div>
+
+            <!-- Call to Action -->
+            <div>
+              <a href="#contact" class="btn btn-primary">
+                <span>Let's Connect</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         4. SKILLS SECTION
+         ========================================================================= -->
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-tag">
+            <span class="dot"></span>
+            <span>Capabilities &amp; Tools</span>
+          </div>
+          <h2 class="section-title">Technical &amp; Digital Skills</h2>
+          <p class="section-subtitle">
+            Core competencies developed through practical learning, coursework, and personal coding practice.
+          </p>
+        </div>
+
+        <!-- 8 Skill Cards Grid -->
+        <div class="skills-grid">
+          <!-- Skill 1: Website Development -->
+          <div class="skill-card">
+            <div class="skill-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="skill-title">Website Development</h3>
+            <p class="skill-desc">
+              Designing and constructing responsive, user-friendly layouts tailored for all screen sizes from mobile to desktop.
+            </p>
+            <div class="skill-tags">
+              <span class="skill-tag">Responsive Design</span>
+              <span class="skill-tag">Modern UI</span>
+              <span class="skill-tag">Web Standards</span>
+            </div>
+          </div>
+
+          <!-- Skill 2: HTML, CSS, and JavaScript -->
+          <div class="skill-card">
+            <div class="skill-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3 class="skill-title">HTML, CSS, and JavaScript</h3>
+            <p class="skill-desc">
+              Writing clean semantic markup, custom modern CSS styling with flexbox &amp; grid, and dynamic interactivity.
+            </p>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript (ES6+)</span>
+            </div>
+          </div>
+
+          <!-- Skill 3: Programming Fundamentals -->
+          <div class="skill-card">
+            <div class="skill-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+              </svg>
+            </div>
+            <h3 class="skill-title">Programming Fundamentals</h3>
+            <p class="skill-desc">
+              Understanding foundational concepts like variables, conditionals, data structures, loops, and control flow.
+            </p>
+            <div class="skill-tags">
+              <span class="skill-tag">Logic Building</span>
+              <span class="skill-tag">Algorithms</span>
+              <span class="skill-tag">Control Flow</span>
+            </div>
+          </div>
+
+          <!-- Skill 4: Computer Operation -->
+          <div class="skill-card">
+            <div class="skill-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                <line x1="6" y1="18" x2="6.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3 class="skill-title">Computer Operation</h3>
+            <p class="skill-desc">
+              Efficient with OS management, hardware basics, file systems, software installation, and general digital workflows.
+            </p>
+            <div class="skill-tags">
+              <span class="skill-tag">Windows OS</span>
+              <span class="skill-tag">File Systems</span>
+              <span class="skill-tag">System Maintenance</span>
+            </div>
+          </div>
+
+          <!-- Skill 5: Digital Work -->
+          <div class="skill-card">
+            <div class="skill-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+            </div>
+            <h3 class="skill-title">Digital Work</h3>
+            <p class="skill-desc">
+              Comfortable operating online tools, internet research, digital productivity suites, and task automation solutions.
+            </p>
+            <div class="skill-tags">
+              <span class="skill-tag">Online Tools</span>
+              <span class="skill-tag">Cloud Services</span>
+              <span class="skill-tag">Productivity</span>
+            </div>
+          </div>
+
+          <!-- Skill 6: Basic Content Creation -->
+          <div class="skill-card">
+            <div class="skill-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                <path d="M2 2l7.586 7.586"></path>
+                <circle cx="11" cy="11" r="2"></circle>
+              </svg>
+            </div>
+            <h3 class="skill-title">Basic Content Creation</h3>
+            <p class="skill-desc">
+              Crafting engaging visual elements, digital banners, presentation graphics, and clear informational copy.
+            </p>
+            <div class="skill-tags">
+              <span class="skill-tag">Digital Design</span>
+              <span class="skill-tag">Graphics</span>
+              <span class="skill-tag">Presentations</span>
+            </div>
+          </div>
+
+          <!-- Skill 7: Problem Solving -->
+          <div class="skill-card">
+            <div class="skill-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 1 1 7.072 0l-.548.547A3.374 3.374 0 0 0 14 18.469V19a2 2 0 1 1-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+              </svg>
+            </div>
+            <h3 class="skill-title">Problem Solving</h3>
+            <p class="skill-desc">
+              Strong logical mindset for diagnosing code errors, troubleshooting computer software issues, and finding fixes.
+            </p>
+            <div class="skill-tags">
+              <span class="skill-tag">Debugging</span>
+              <span class="skill-tag">Analytical Thinking</span>
+              <span class="skill-tag">Testing</span>
+            </div>
+          </div>
+
+          <!-- Skill 8: Learning New Technologies -->
+          <div class="skill-card">
+            <div class="skill-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            </div>
+            <h3 class="skill-title">Learning New Technologies</h3>
+            <p class="skill-desc">
+              Curious, proactive, and fast at picking up modern libraries, development environments, and digital tools.
+            </p>
+            <div class="skill-tags">
+              <span class="skill-tag">Self-Learning</span>
+              <span class="skill-tag">Adaptability</span>
+              <span class="skill-tag">Curiosity</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         5. EXPERIENCE SECTION
+         ========================================================================= -->
+    <section id="experience" class="experience-section">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-tag">
+            <span class="dot"></span>
+            <span>Practical Experience</span>
+          </div>
+          <h2 class="section-title">Practical Experience &amp; Focus</h2>
+          <p class="section-subtitle">
+            Hands-on experience gained through personal projects, technical experiments, and continuous practice.
+          </p>
+        </div>
+
+        <!-- Experience Cards Container -->
+        <div class="experience-grid">
+          <!-- Experience 1: Designing and developing simple websites -->
+          <div class="exp-card">
+            <div class="exp-number">01</div>
+            <div class="exp-content">
+              <h4>Designing and Developing Simple Websites</h4>
+              <p>
+                Building responsive, mobile-first web pages from scratch using modern semantic HTML5 and CSS3. Focused on clean layouts, typography, and intuitive user navigation.
+              </p>
+              <div class="exp-pills">
+                <span class="exp-pill">Web Layouts</span>
+                <span class="exp-pill">Semantic Structure</span>
+                <span class="exp-pill">Mobile Responsiveness</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 2: Programming practice and logical problem solving -->
+          <div class="exp-card">
+            <div class="exp-number">02</div>
+            <div class="exp-content">
+              <h4>Programming Practice &amp; Logical Problem Solving</h4>
+              <p>
+                Consistent coding exercises to build strong algorithmic thinking, conditional workflows, and modular programming techniques in JavaScript.
+              </p>
+              <div class="exp-pills">
+                <span class="exp-pill">JavaScript</span>
+                <span class="exp-pill">Logic Architecture</span>
+                <span class="exp-pill">Algorithm Practice</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 3: Computer work, software use, and troubleshooting -->
+          <div class="exp-card">
+            <div class="exp-number">03</div>
+            <div class="exp-content">
+              <h4>Computer Work, Software Use &amp; Troubleshooting</h4>
+              <p>
+                Practical experience operating computer systems, configuring utility tools, resolving software conflicts, and assisting others with everyday technical challenges.
+              </p>
+              <div class="exp-pills">
+                <span class="exp-pill">System Troubleshooting</span>
+                <span class="exp-pill">Software Configuration</span>
+                <span class="exp-pill">Hardware Basics</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 4: Digital tasks and online tools -->
+          <div class="exp-card">
+            <div class="exp-number">04</div>
+            <div class="exp-content">
+              <h4>Digital Tasks &amp; Online Tools</h4>
+              <p>
+                Utilizing cloud productivity apps, data entry tools, online documentation, and collaborative web platforms for streamlined digital execution.
+              </p>
+              <div class="exp-pills">
+                <span class="exp-pill">Cloud Suites</span>
+                <span class="exp-pill">Digital Productivity</span>
+                <span class="exp-pill">Online Collaboration</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 5: Creating and improving personal digital projects -->
+          <div class="exp-card">
+            <div class="exp-number">05</div>
+            <div class="exp-content">
+              <h4>Creating &amp; Improving Personal Digital Projects</h4>
+              <p>
+                Iteratively refining personal coding repositories, modernizing portfolio layouts, experimenting with user interfaces, and learning industry best practices.
+              </p>
+              <div class="exp-pills">
+                <span class="exp-pill">Project Refinement</span>
+                <span class="exp-pill">Version Tracking</span>
+                <span class="exp-pill">Continuous Learning</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         6. PROJECTS SECTION
+         ========================================================================= -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-tag">
+            <span class="dot"></span>
+            <span>Featured Portfolio</span>
+          </div>
+          <h2 class="section-title">Projects &amp; Creations</h2>
+          <p class="section-subtitle">
+            A showcase of web projects, academic digital creations, and programming practice repositories.
+          </p>
+        </div>
+
+        <!-- 3 Project Cards Grid -->
+        <div class="projects-grid">
+          <!-- Project 1: Personal Portfolio Website -->
+          <div class="project-card">
+            <div class="project-image-wrap">
+              <!-- CUSTOMIZE: Replace src="assets/images/project-1.svg" with your own project screenshot if desired -->
+              <img 
+                src="assets/images/project-1.svg" 
+                alt="Preview of Personal Portfolio Website Project" 
+                loading="lazy"
+                width="600"
+                height="360"
+              >
+              <span class="project-category-badge">Web Development</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Personal Portfolio Website</h3>
+              <p class="project-desc">
+                A responsive portfolio website to show skills, projects, and contact information. Built with modern styling, dark theme aesthetic, and mobile navigation.
+              </p>
+              <div class="project-techs">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-actions">
+                <!-- CUSTOMIZE: Link to your live site URL -->
+                <a href="#home" class="btn btn-primary btn-sm">
+                  <span>Live Demo</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <!-- CUSTOMIZE: Link to your project GitHub repository -->
+                <a href="https://github.com/pramodbastola376-arch" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: School Digital Project -->
+          <div class="project-card">
+            <div class="project-image-wrap">
+              <!-- CUSTOMIZE: Replace src="assets/images/project-2.svg" with your school project visual -->
+              <img 
+                src="assets/images/project-2.svg" 
+                alt="Preview of School Digital Project" 
+                loading="lazy"
+                width="600"
+                height="360"
+              >
+              <span class="project-category-badge">Academic &amp; Tools</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">School Digital Project</h3>
+              <p class="project-desc">
+                A digital project created for learning and school-related work. Incorporates organized presentation layouts and computer application tools.
+              </p>
+              <div class="project-techs">
+                <span class="tech-tag">Computer Tools</span>
+                <span class="tech-tag">Presentation Tools</span>
+                <span class="tech-tag">Web Technologies</span>
+              </div>
+              <div class="project-actions">
+                <!-- CUSTOMIZE: Link to live project or presentation preview -->
+                <a href="#contact" class="btn btn-primary btn-sm">
+                  <span>Live Demo</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <!-- CUSTOMIZE: Link to GitHub repository -->
+                <a href="https://github.com/pramodbastola376-arch" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Programming Practice Projects -->
+          <div class="project-card">
+            <div class="project-image-wrap">
+              <!-- CUSTOMIZE: Replace src="assets/images/project-3.svg" with your code screenshot -->
+              <img 
+                src="assets/images/project-3.svg" 
+                alt="Preview of Programming Practice Projects" 
+                loading="lazy"
+                width="600"
+                height="360"
+              >
+              <span class="project-category-badge">Coding &amp; Logic</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Programming Practice Projects</h3>
+              <p class="project-desc">
+                Small programming projects focused on building logic and improving coding skills. Includes algorithms, data manipulation, and interactive scripts.
+              </p>
+              <div class="project-techs">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Programming Tools</span>
+                <span class="tech-tag">Problem Solving</span>
+              </div>
+              <div class="project-actions">
+                <!-- CUSTOMIZE: Link to demo -->
+                <a href="#contact" class="btn btn-primary btn-sm">
+                  <span>Live Demo</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <!-- CUSTOMIZE: Link to GitHub practice repository -->
+                <a href="https://github.com/pramodbastola376-arch" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         7. CONTACT SECTION
+         ========================================================================= -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-tag">
+            <span class="dot"></span>
+            <span>Get in Touch</span>
+          </div>
+          <h2 class="section-title">Contact Pramod Bastola</h2>
+          <p class="section-subtitle">
+            Feel free to contact me for collaboration, projects, or digital work.
+          </p>
+        </div>
+
+        <!-- Contact Grid -->
+        <div class="contact-grid">
+          <!-- Left Column: Contact Cards & Socials -->
+          <div class="contact-info-col">
+            <h3 class="contact-headline">Let's talk about your next project</h3>
+            <p class="contact-lead">
+              Whether you need a new website created, digital assistance, or have questions about a project, I am here and eager to connect!
+            </p>
+
+            <div class="contact-cards">
+              <!-- Email Card -->
+              <div class="contact-card">
+                <div class="contact-card-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                  </svg>
+                </div>
+                <div class="contact-card-text">
+                  <span class="contact-card-label">Email Address</span>
+                  <span class="contact-card-value">
+                    <a href="mailto:pramodbastola376@gmail.com">pramodbastola376@gmail.com</a>
+                  </span>
+                </div>
+              </div>
+
+              <!-- Phone & WhatsApp Card -->
+              <div class="contact-card">
+                <div class="contact-card-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                  </svg>
+                </div>
+                <div class="contact-card-text">
+                  <span class="contact-card-label">Phone &amp; WhatsApp</span>
+                  <span class="contact-card-value">
+                    <a href="tel:+9779804963080">+977 9804963080</a>
+                  </span>
+                </div>
+              </div>
+
+              <!-- Location Card -->
+              <div class="contact-card">
+                <div class="contact-card-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                    <circle cx="12" cy="10" r="3"/>
+                  </svg>
+                </div>
+                <div class="contact-card-text">
+                  <span class="contact-card-label">Location</span>
+                  <span class="contact-card-value">Birtamode, Jhapa, Nepal</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links Pills -->
+            <div class="contact-social-pills">
+              <!-- WhatsApp Button -->
+              <a href="https://wa.me/9779804963080" target="_blank" rel="noopener noreferrer" class="social-pill">
+                <svg viewBox="0 0 24 24">
+                  <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                </svg>
+                <span>WhatsApp</span>
+              </a>
+
+              <!-- Instagram Button -->
+              <a href="https://www.instagram.com/pramod.bastola.7" target="_blank" rel="noopener noreferrer" class="social-pill">
+                <svg viewBox="0 0 24 24">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                </svg>
+                <span>Instagram</span>
+              </a>
+
+              <!-- Facebook Button -->
+              <a href="https://www.facebook.com/pramod.bastola.7" target="_blank" rel="noopener noreferrer" class="social-pill">
+                <svg viewBox="0 0 24 24">
+                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+                <span>Facebook</span>
+              </a>
+
+              <!-- GitHub Button -->
+              <a href="https://github.com/pramodbastola376-arch" target="_blank" rel="noopener noreferrer" class="social-pill">
+                <svg viewBox="0 0 24 24">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Working Contact Form -->
+          <div class="contact-form-box">
+            <h4 class="form-header-text">Send a Message</h4>
+            
+            <form id="contactForm" class="contact-form" novalidate>
+              <!-- Name Field -->
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name *</label>
+                <input 
+                  type="text" 
+                  id="name" 
+                  name="name" 
+                  class="form-input" 
+                  placeholder="e.g. John Sharma" 
+                  required
+                >
+              </div>
+
+              <!-- Email Field -->
+              <div class="form-group">
+                <label for="email" class="form-label">Your Email *</label>
+                <input 
+                  type="email" 
+                  id="email" 
+                  name="email" 
+                  class="form-input" 
+                  placeholder="e.g. john@example.com" 
+                  required
+                >
+              </div>
+
+              <!-- Subject Field -->
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input 
+                  type="text" 
+                  id="subject" 
+                  name="subject" 
+                  class="form-input" 
+                  placeholder="e.g. Project Discussion / Web Collaboration"
+                >
+              </div>
+
+              <!-- Message Field -->
+              <div class="form-group">
+                <label for="message" class="form-label">Message *</label>
+                <textarea 
+                  id="message" 
+                  name="message" 
+                  class="form-textarea" 
+                  placeholder="Write your message or project requirements here..." 
+                  required
+                ></textarea>
+              </div>
+
+              <!-- Live Status Alert Box -->
+              <div id="formStatus" class="form-status" role="alert"></div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-primary">
+                <span>Send Message</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       8. FOOTER
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h3>Pramod Bastola</h3>
+          <p>Student | Web Developer | Digital Worker &bull; Birtamode, Jhapa, Nepal</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer Navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copy">
+          &copy; 2026 Pramod Bastola. All Rights Reserved.
+        </div>
+
+        <!-- Social Icons in Footer -->
+        <div class="footer-socials">
+          <!-- Email -->
+          <a href="mailto:pramodbastola376@gmail.com" class="social-icon-link" aria-label="Email">
+            <svg viewBox="0 0 24 24">
+              <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+            </svg>
+          </a>
+          <!-- WhatsApp -->
+          <a href="https://wa.me/9779804963080" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24">
+              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+            </svg>
+          </a>
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/pramod.bastola.7" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="Instagram">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+          </a>
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/pramod.bastola.7" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="Facebook">
+            <svg viewBox="0 0 24 24">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+          </a>
+          <!-- GitHub -->
+          <a href="https://github.com/pramodbastola376-arch" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="GitHub">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top of page">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </button>
+
+  <!-- Main JavaScript Bundle -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
